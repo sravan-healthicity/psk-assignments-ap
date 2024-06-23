@@ -20,6 +20,7 @@ import LifecycleDemo from './components/static/LifeCycleDemo';
 import AxiosDemo from './components/static/AxiosDemo';
 import NestedAxio from './components/nested/NestedAxio';
 import Counter from './components/static/Counter';
+import Map from './components/static/Map';
 import Spa from './components/Spa/SPA';
 
 
@@ -50,6 +51,7 @@ const AppRoutes = () => {
 				<Route path='nested-axio' element={<NestedAxio />} />
 				<Route path="counter" element={<Counter />} />
 				<Route path="spa" element={<Spa />} />
+				<Route path="data-map" element={<Map />} />
 				<Route path="*" element={<NoPageFound />} />
 			</Route>
 		</Routes>

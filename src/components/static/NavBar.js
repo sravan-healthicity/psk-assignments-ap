@@ -45,7 +45,6 @@ export default function NavBar() {
                             {/* <li><NavLink to="hook-form">React Hook Form</NavLink></li> */}
                             <li><NavLink to="nested-axio" className="nav-link">Nested Axio</NavLink></li>
                             {/* <li><NavLink to="form">Form</NavLink></li> */}
-                            {/* <li><NavLink to="data-map" className="nav-link">Data Map</NavLink></li> */}
                             <li><NavLink to="counter" className="nav-link">Counter</NavLink></li>
                             <li ><NavLink to="spa" className="nav-link">SPA</NavLink></li>
                             <ul className="navbar-nav">
@@ -106,7 +105,7 @@ export default function NavBar() {
                             </ul>
                             <li><NavLink to="conditional-demo" className="nav-link">Conditional Component</NavLink></li>
                             <li><NavLink to="lifecycle" className="nav-link">Lifecycle</NavLink></li>
-
+                            <li><NavLink to="data-map" className="nav-link">Data Map</NavLink></li>
                             {/* <form className="d-flex">
                                 <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                                 <button className="btn btn-outline-success" type="submit">Search</button>
