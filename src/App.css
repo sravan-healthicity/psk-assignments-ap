@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -32,7 +32,27 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+} */
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+  /* Remove the margin so it doesn't affect the layout */
+}
+
+.blockquote {
+  margin: 5em 0;
+  padding: 0 0 0 1em;
+}
+
+.pd-3 {
+  padding: 3em;
+}
+
+.float-rt {
+  float: right;
 }

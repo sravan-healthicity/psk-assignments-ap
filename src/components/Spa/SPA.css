@@ -1,0 +1,10 @@
+.dumtxt {
+    height: 100vh;
+    padding: 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    scroll-margin-top: 100px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.5;
+}
