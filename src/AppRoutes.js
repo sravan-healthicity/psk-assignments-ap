@@ -24,11 +24,6 @@ import Spa from './components/Spa/SPA';
 
 
 
-
-
-// import Counter from './components/Redux/Counter';
-// import Map from './components/map';
-
 const AppRoutes = () => {
 	return (
 		<Routes>
